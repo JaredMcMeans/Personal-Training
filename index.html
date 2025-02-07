@@ -21,7 +21,7 @@
         }
         .hero {
             padding: 50px;
-            background: url('fitness_bg.jpg') no-repeat center center/cover;
+            background: url('https://source.unsplash.com/1600x900/?fitness,training') no-repeat center center/cover;
             height: 500px;
             display: flex;
             align-items: center;
@@ -47,30 +47,38 @@
             background: #222;
             padding: 20px;
         }
+        a {
+            color: #ff0000;
+            text-decoration: none;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
     <header>Elite Personal Training</header>
     <div class="hero">Transform Your Body & Mind</div>
-    <div class="section">
+    <div class="section" id="why-train">
         <h2>Why Train With Me?</h2>
         <p>NASM Certified | Degree in Exercise Science | Proven Results</p>
-        <div class="cta">Start Your Transformation</div>
+        <a href="#consultation" class="cta">Start Your Transformation</a>
     </div>
-    <div class="section">
+    <div class="section" id="services">
         <h2>What I Offer</h2>
         <p>✅ Online & In-Person Training<br>✅ Customized Workouts & Meal Plans<br>✅ Guaranteed Progress Tracking</p>
     </div>
-    <div class="section">
+    <div class="section" id="testimonials">
         <h2>Client Success Stories</h2>
         <p>"I lost 20 lbs in 3 months! Best decision ever!" - Alex</p>
         <p>"Gained muscle and confidence with his training!" - Jamie</p>
     </div>
-    <div class="section">
+    <div class="section" id="consultation">
         <h2>Book Your Free Consultation</h2>
         <p>Only a few spots left this month!</p>
-        <div class="cta">Claim Your Spot Now</div>
+        <a href="mailto:jaredmcmeans@icloud.com" class="cta">Claim Your Spot Now</a>
     </div>
-    <div class="footer">Follow me on Instagram | Contact: <a href="mailto:your@email.com">your@email.com</a></div>
+    <div class="footer">
+        Follow me on <a href="https://www.instagram.com/jaredmcmeans" target="_blank">Instagram</a> | 
+        Contact: <a href="mailto:jaredmcmeans@icloud.com">jaredmcmeans@icloud.com</a>
+    </div>
 </body>
 </html>
