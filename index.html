@@ -6,71 +6,92 @@
     <title>Elite Personal Training</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background: #111;
+            background: #0d0d0d;
             color: white;
             text-align: center;
         }
         header {
-            background: #ff0000;
-            padding: 20px;
-            font-size: 24px;
+            background: linear-gradient(90deg, #ff0000, #cc0000);
+            padding: 25px;
+            font-size: 28px;
             font-weight: bold;
+            letter-spacing: 2px;
+            text-transform: uppercase;
         }
         .hero {
-            padding: 50px;
-            background: url('https://source.unsplash.com/1600x900/?fitness,training') no-repeat center center/cover;
+            padding: 60px;
+            background: url('https://images.pexels.com/photos/28061/pexels-photo.jpg?w=1600') no-repeat center center/cover;
             height: 500px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 36px;
+            font-size: 42px;
             font-weight: bold;
-            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+            text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.9);
+            color: #fff;
         }
         .cta {
             background: #ff0000;
             padding: 20px;
             margin: 20px;
-            font-size: 20px;
+            font-size: 22px;
             font-weight: bold;
             display: inline-block;
             cursor: pointer;
-            border-radius: 10px;
+            border-radius: 12px;
             color: white;
+            transition: background 0.3s;
+        }
+        .cta:hover {
+            background: #cc0000;
         }
         .section {
-            padding: 50px;
+            padding: 60px;
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
         }
         .footer {
             background: #222;
-            padding: 20px;
+            padding: 25px;
+            font-size: 18px;
         }
         a {
             color: #ff0000;
             text-decoration: none;
             font-weight: bold;
         }
+        a:hover {
+            color: #cc0000;
+        }
         .image-section img {
-            width: 80%;
-            max-width: 600px;
-            margin: 20px 0;
-            border-radius: 10px;
+            width: 90%;
+            max-width: 700px;
+            margin: 30px 0;
+            border-radius: 15px;
+            box-shadow: 0px 5px 15px rgba(255, 0, 0, 0.4);
+        }
+        .about-me {
+            background: #1a1a1a;
+            padding: 60px;
+            border-radius: 15px;
+            box-shadow: 0px 5px 15px rgba(255, 0, 0, 0.3);
         }
     </style>
 </head>
 <body>
     <header>Elite Personal Training</header>
     <div class="hero">Transform Your Body & Mind</div>
-    <div class="section" id="why-train">
+    <div class="section about-me" id="why-train">
         <h2>Why Train With Me?</h2>
-        <p>I am a NASM-certified personal trainer with a degree in Exercise Science. With years of experience, I have helped countless clients achieve their fitness goals through customized workout programs and personalized nutrition plans.</p>
+        <p>I am a NASM-certified personal trainer with a degree in Exercise Science. Over the years, I have helped countless clients reach their fitness goals through customized workout programs and personalized nutrition plans. Whether you're looking to build muscle, lose fat, or enhance your overall health, I'm here to guide you every step of the way.</p>
     </div>
     <div class="section image-section">
-        <img src="https://source.unsplash.com/800x600/?gym,workout" alt="Training Session">
-        <img src="https://source.unsplash.com/800x600/?personaltrainer,fitness" alt="Personal Training">
+        <img src="https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg?w=1200" alt="Training Session">
+        <img src="https://images.pexels.com/photos/28061/pexels-photo.jpg?w=1200" alt="Personal Training">
     </div>
     <div class="section" id="services">
         <h2>What I Offer</h2>
@@ -87,7 +108,7 @@
         <a href="mailto:jaredmcmeans@icloud.com" class="cta">Claim Your Spot Now</a>
     </div>
     <div class="footer">
-        Follow me on <a href="https://www.instagram.com/jaredmcmeans" target="_blank"><strong>@jaredmcmeans</strong></a> | 
+        Follow me on Instagram <a href="https://www.instagram.com/jaredmcmeans" target="_blank"><strong>jaredmcmeans</strong></a> | 
         Contact: <a href="mailto:jaredmcmeans@icloud.com">jaredmcmeans@icloud.com</a>
     </div>
 </body>
